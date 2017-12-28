@@ -1,0 +1,6 @@
+.*
+*.ipr
+*.iml
+build
+target
+!.gitignore
