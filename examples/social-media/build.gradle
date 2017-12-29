@@ -27,7 +27,7 @@ repositories {
 }
 
 dependencies {
-    compile 'jroadie.springframework.boot:spring-boot-starter-graphql:0.0.1-SNAPSHOT'
+    compile 'jroadie.springframework.boot:graphql-spring-boot-starter:0.0.1-SNAPSHOT'
     compile 'org.springframework.boot:spring-boot-starter-data-jpa'
 
     runtime "com.h2database:h2"
