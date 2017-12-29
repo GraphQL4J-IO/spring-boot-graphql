@@ -14,7 +14,7 @@ apply plugin: 'maven'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
-group = 'jroadie.springframework.data.example'
+group = 'jroadie.springframework.graphql.example'
 version = '1.0.0-alpha'
 
 sourceCompatibility = 1.8
@@ -29,7 +29,7 @@ repositories {
 dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web'
 
-    //compile 'jroadie.springframework.data:spring-data-graphql:0.0.1-SNAPSHOT'
+    //compile 'jroadie.springframework.boot:spring-boot-starter-graphql:0.0.1-SNAPSHOT'
 
     testCompile 'org.springframework.boot:spring-boot-starter-test'
 }
