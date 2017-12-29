@@ -13,6 +13,7 @@ public class GraphqlController {
 
     @PostMapping
     public Map<String, ?> index() {
+        System.out.println("7777777777777777777777777777");
         return Collections.emptyMap();
     }
 
