@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties("spring.graphql")
 public class GraphqlProperties {
 
-    private String baseUrl = "/graphql";
+    private String baseUrl;
 
     public String getBaseUrl() {
         return baseUrl;
