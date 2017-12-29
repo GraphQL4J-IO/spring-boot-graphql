@@ -1,21 +1,6 @@
-group 'jroadie.springframework.data'
-version project.version
-
-apply plugin: 'java'
-
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
-
-repositories {
-    mavenLocal()
-    mavenCentral()
-    maven { url "https://repo.spring.io/snapshot" }
-    maven { url "https://repo.spring.io/milestone" }
-}
-
 dependencies {
     compile "org.springframework.boot:spring-boot:$springBootVersion"
     compile "org.springframework.boot:spring-boot-autoconfigure:$springBootVersion"
     compile "org.springframework.boot:spring-boot-configuration-processor:$springBootVersion"
-    //compile "jroadie.springframework:spring-graphql:$project.version"
+    compile "jroadie.springframework:spring-graphql:$project.version"
 }
