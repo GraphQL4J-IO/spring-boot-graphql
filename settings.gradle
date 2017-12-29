@@ -1,4 +1,4 @@
-rootProject.name = 'spring-boot-graphql'
-include ':spring-boot-autoconfigure-graphql'
-include ':spring-boot-starter-graphql'
-include ':spring-graphql'
+rootProject.name = 'graphql-spring-boot'
+include ':graphql-spring-boot-autoconfigure'
+include ':graphql-spring-boot-starter'
+include ':graphql-spring'

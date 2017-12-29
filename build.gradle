@@ -16,8 +16,8 @@ subprojects {
     }
 }
 
-project(':spring-boot-autoconfigure-graphql') {
+project(':graphql-spring-boot-autoconfigure') {
     dependencies {
-        compile project(':spring-graphql')
+        compile project(':graphql-spring')
     }
 }
