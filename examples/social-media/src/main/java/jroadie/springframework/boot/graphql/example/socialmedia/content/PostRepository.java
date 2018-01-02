@@ -1,8 +1,11 @@
 package jroadie.springframework.boot.graphql.example.socialmedia.content;
 
-import org.springframework.data.repository.PagingAndSortingRepository;
-import org.springframework.stereotype.Repository;
+import jroadie.springframework.graphql.stereotype.GraphqlRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-@Repository
-public interface PostRepository extends PagingAndSortingRepository<Post, Long> {
+@GraphqlRepository
+public interface PostRepository extends JpaRepository<Post, Long> {
+
+
+
 }

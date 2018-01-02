@@ -1,5 +1,6 @@
 package jroadie.springframework.graphql;
 
+import jroadie.springframework.graphql.stereotype.GraphqlRepository;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.ApplicationContext;
@@ -13,7 +14,7 @@ public class GraphqlContext implements ApplicationContextAware, InitializingBean
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        final Map<String, Object> queries = applicationContext.getBeansWithAnnotation(GraphqlQuery.class);
+        final Map<String, Object> queries = applicationContext.getBeansWithAnnotation(GraphqlRepository.class);
         for (Object o : queries.values()) {
 
         }

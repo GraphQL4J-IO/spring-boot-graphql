@@ -56,4 +56,9 @@ public class Post {
     public void setAuthor(Author author) {
         this.author = author;
     }
+
+    @Override
+    public String toString() {
+        return getId() + ":" + getTitle() + " by " + getAuthor().getFullName();
+    }
 }

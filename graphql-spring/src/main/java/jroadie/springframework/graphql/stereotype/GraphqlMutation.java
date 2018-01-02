@@ -1,4 +1,4 @@
-package jroadie.springframework.graphql;
+package jroadie.springframework.graphql.stereotype;
 
 import org.springframework.stereotype.Component;
 
@@ -10,5 +10,5 @@ import java.lang.annotation.Target;
 @Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 @Component
-public @interface GraphqlQuery {
+public @interface GraphqlMutation {
 }
