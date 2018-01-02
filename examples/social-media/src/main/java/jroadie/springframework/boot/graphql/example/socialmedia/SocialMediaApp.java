@@ -1,4 +1,4 @@
-package jroadie.springframework.graphql.example.socialmedia;
+package jroadie.springframework.boot.graphql.example.socialmedia;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

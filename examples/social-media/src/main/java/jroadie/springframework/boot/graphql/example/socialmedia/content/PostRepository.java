@@ -1,4 +1,4 @@
-package jroadie.springframework.graphql.example.socialmedia.content;
+package jroadie.springframework.boot.graphql.example.socialmedia.content;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;

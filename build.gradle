@@ -3,6 +3,7 @@ subprojects {
     version = '0.0.1-SNAPSHOT'
 
     apply plugin: 'java'
+    apply plugin: 'groovy'
     apply plugin: 'maven'
 
     sourceCompatibility = 1.8
@@ -13,6 +14,11 @@ subprojects {
         mavenCentral()
         maven { url "https://repo.spring.io/snapshot" }
         maven { url "https://repo.spring.io/milestone" }
+    }
+
+    dependencies {
+        testCompile "org.springframework.boot:spring-boot-starter-test:$springBootVersion"
+        //testCompile 'org.mockito:mockito-core'
     }
 }
 

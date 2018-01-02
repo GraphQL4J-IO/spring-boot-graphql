@@ -3,4 +3,6 @@ group 'jroadie.springframework'
 dependencies {
     compile "org.springframework.boot:spring-boot-starter-web:$springBootVersion"
     compile "com.graphql-java:graphql-java:$graphqlJavaVersion"
+
+    testCompile 'org.codehaus.groovy:groovy-all:2.4.13'
 }

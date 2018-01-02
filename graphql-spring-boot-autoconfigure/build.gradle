@@ -3,4 +3,6 @@ dependencies {
     compile "org.springframework.boot:spring-boot-autoconfigure:$springBootVersion"
     compile "org.springframework.boot:spring-boot-configuration-processor:$springBootVersion"
     compile "jroadie.springframework:graphql-spring:$project.version"
+
+    testCompile 'org.codehaus.groovy:groovy-all:2.4.13'
 }
