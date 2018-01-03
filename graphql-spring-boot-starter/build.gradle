@@ -1,4 +1,0 @@
-dependencies {
-    compile "org.springframework.boot:spring-boot-starter:$springBootVersion"
-    compile "$project.group:graphql-spring-boot-autoconfigure:$project.version"
-}

@@ -1,4 +1,4 @@
-package jroadie.springframework.boot.graphql.example.socialmedia.user;
+package graphql4j.springframework.boot.graphql.example.socialmedia.user;
 
 import javax.validation.constraints.Size;
 

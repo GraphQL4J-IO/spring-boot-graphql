@@ -1,6 +1,6 @@
-package jroadie.springframework.boot.graphql.example.socialmedia.content;
+package graphql4j.springframework.boot.graphql.example.socialmedia.content;
 
-import jroadie.springframework.graphql.stereotype.GraphqlRepository;
+import graphql4j.springframework.graphql.stereotype.GraphqlRepository;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 @GraphqlRepository

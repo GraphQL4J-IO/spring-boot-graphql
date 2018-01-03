@@ -1,2 +1,1 @@
-# spring-data-graphql
-Spring Data Graphql
+# Spring GraphQL Project

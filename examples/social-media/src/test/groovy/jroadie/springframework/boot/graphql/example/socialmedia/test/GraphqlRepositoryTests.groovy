@@ -1,6 +1,6 @@
-package jroadie.springframework.boot.graphql.example.socialmedia.test
+package graphql4j.springframework.boot.graphql.example.socialmedia.test
 
-import jroadie.springframework.boot.graphql.example.socialmedia.content.PostRepository
+import graphql4j.springframework.boot.graphql.example.socialmedia.content.PostRepository
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.springframework.beans.factory.annotation.Autowired

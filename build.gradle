@@ -1,5 +1,5 @@
 subprojects {
-    group = 'jroadie.springframework.boot'
+    group = 'graphql4j.springframework.boot'
     version = '2018.1.3-SNAPSHOT'
 
     apply plugin: 'java'
@@ -21,13 +21,13 @@ subprojects {
     }
 }
 
-project(':graphql-spring-boot-autoconfigure') {
+project(':spring-boot-autoconfigure-graphql') {
     dependencies {
-        compile project(':graphql-spring')
+        compile project(':spring-graphql')
     }
 }
 
-project(':graphql-spring') {
+project(':spring-graphql') {
     dependencies {
         compile project(':graphql4j')
     }

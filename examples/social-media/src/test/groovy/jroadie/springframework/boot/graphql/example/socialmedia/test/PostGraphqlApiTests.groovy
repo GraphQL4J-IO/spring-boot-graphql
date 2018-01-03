@@ -1,4 +1,4 @@
-package jroadie.springframework.boot.graphql.example.socialmedia.test
+package graphql4j.springframework.boot.graphql.example.socialmedia.test
 
 import org.junit.Test
 import org.junit.runner.RunWith

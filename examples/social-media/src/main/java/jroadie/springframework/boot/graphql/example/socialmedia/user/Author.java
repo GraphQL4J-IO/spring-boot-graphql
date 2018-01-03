@@ -1,6 +1,6 @@
-package jroadie.springframework.boot.graphql.example.socialmedia.user;
+package graphql4j.springframework.boot.graphql.example.socialmedia.user;
 
-import jroadie.springframework.boot.graphql.example.socialmedia.content.Post;
+import graphql4j.springframework.boot.graphql.example.socialmedia.content.Post;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
