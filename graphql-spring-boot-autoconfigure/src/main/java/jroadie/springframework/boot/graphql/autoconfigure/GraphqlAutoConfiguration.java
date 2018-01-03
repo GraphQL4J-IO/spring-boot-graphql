@@ -22,7 +22,22 @@ public class GraphqlAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean(GraphQLObjectType.class)
-    public GraphQLObjectType graphQLObjectType() {
+    public GraphQLObjectType graphqlQuery() {
+        return newObject()
+                .name("RootQuery")
+                .description("testing object type")
+                .field(newFieldDefinition()
+                        .name("hello")
+                        .type(GraphQLString)
+                        .dataFetcher(environment -> "Bangladesh!")
+                        .build()
+                )
+                .build();
+    }
+
+    @Bean
+    @ConditionalOnMissingBean(GraphQLObjectType.class)
+    public GraphQLObjectType graphqlMutation() {
         return newObject()
                 .name("RootQuery")
                 .description("testing object type")
@@ -37,9 +52,10 @@ public class GraphqlAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean(GraphQLSchema.class)
-    public GraphQLSchema graphQLSchema(GraphQLObjectType graphQLObjectType) {
+    public GraphQLSchema graphQLSchema(GraphQLObjectType graphqlQuery, GraphQLObjectType graphqlMutation) {
         return newSchema()
-                .query(graphQLObjectType)
+                .query(graphqlQuery)
+                .mutation(graphqlMutation)
                 .build();
     }
 
