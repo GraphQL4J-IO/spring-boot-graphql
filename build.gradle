@@ -1,6 +1,6 @@
 subprojects {
     group = 'jroadie.springframework.boot'
-    version = '0.0.1-SNAPSHOT'
+    version = '2018.1.3-SNAPSHOT'
 
     apply plugin: 'java'
     apply plugin: 'groovy'
@@ -18,7 +18,6 @@ subprojects {
 
     dependencies {
         testCompile "org.springframework.boot:spring-boot-starter-test:$springBootVersion"
-        //testCompile 'org.mockito:mockito-core'
     }
 }
 
