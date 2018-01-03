@@ -2,3 +2,5 @@ rootProject.name = 'graphql-spring-boot'
 include ':graphql-spring-boot-autoconfigure'
 include ':graphql-spring-boot-starter'
 include ':graphql-spring'
+include ':graphql4j'
+project(':graphql4j').projectDir = file('../graphql4j')

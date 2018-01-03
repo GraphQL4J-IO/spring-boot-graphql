@@ -27,3 +27,9 @@ project(':graphql-spring-boot-autoconfigure') {
         compile project(':graphql-spring')
     }
 }
+
+project(':graphql-spring') {
+    dependencies {
+        compile project(':graphql4j')
+    }
+}
