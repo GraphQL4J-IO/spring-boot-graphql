@@ -19,7 +19,7 @@ class SimpleGraphqlControllerTests {
     @Test
     void hello() {
         mockMvc.perform(get("/graphql"))
-        .andExpect(status().isOk())
+                .andExpect(status().isOk())
     }
 
 
