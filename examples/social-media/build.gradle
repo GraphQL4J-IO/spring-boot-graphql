@@ -1,11 +1,12 @@
 buildscript {
     repositories {
-        jcenter()
+        mavenLocal()
+        mavenCentral()
         maven { url 'http://repo.spring.io/snapshot' }
         maven { url 'http://repo.spring.io/milestone' }
     }
     dependencies {
-        classpath "org.springframework.boot:spring-boot-gradle-plugin:2.0.0.M7"
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion"
     }
 }
 
@@ -28,7 +29,7 @@ repositories {
 }
 
 dependencies {
-    compile 'graphql4j.springframework.boot:spring-boot-starter-graphql:2.0.0.M7-SNAPSHOT'
+    compile "graphql4j.springframework.boot:spring-boot-starter-graphql:$springBootGraphql4jVersion"
     compile 'org.springframework.boot:spring-boot-starter-data-jpa'
 
     runtime "com.h2database:h2"

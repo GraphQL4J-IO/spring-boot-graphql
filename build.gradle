@@ -1,6 +1,6 @@
 subprojects {
-    group = 'graphql4j.springframework.boot'
-    version = '2018.1.3-SNAPSHOT'
+    group = "$group"
+    version = "$version"
 
     apply plugin: 'java'
     apply plugin: 'groovy'
